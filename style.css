@@ -1,0 +1,210 @@
+/* Defult code */
+*{
+    margin: 0;
+    padding: 0;
+}
+img{
+    max-width: 100%;
+}
+.tex-left{
+    text-align: left;
+}
+.text-right{
+    text-align: right;
+}
+.text-center{
+    text-align: center;
+}
+.clearfix::after{
+    content: "";
+    clear: both;
+    display: block;
+}
+.fix-width{
+    width: 1000px;
+    margin: auto;
+}
+
+
+/* Header Section */
+.header{
+    background: #2ecc71;
+}
+.header-left{
+    width: 30%;
+    float: left;
+}
+.header-left img{
+    width: 80px;
+    height: auto;
+}
+.header-right{
+    width: 70%;
+    float: right;
+}
+.for-menu ul{
+    list-style: none;
+}
+.for-menu ul li {
+	display: inline-block;
+	border-right: 1px solid #ddd;
+	margin-left: -4px;
+    transition: .5s;
+}
+.for-menu ul li a{
+    color: #fff;
+    font-size: 20px;
+    padding: 0 20px;
+    text-decoration: none;
+    line-height: 50px;
+}
+.for-menu ul li:hover{
+    background: #27ae60;
+}
+
+
+/* Banner Section */
+.banner {
+	background-image: url(https://www.ualberta.ca/folio/media-library/2020/04/200416-ergonomic-home-office-banner.jpg);
+	background-size: cover;
+	background-position: center;
+	padding: 200px 0;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+}
+.banner h2 {
+	width: 330px;
+	background: #9d9d9d;
+	color: #fff;
+	text-align: center;
+	margin: auto;
+	padding: 10px;
+	border-radius: 10px;
+}
+.banner h1 {
+	width: 342px;
+	margin: auto;
+	background: rgba(46, 204, 113, .5);
+	padding: 10px 20px;
+	border-radius: 10px;
+	margin-top: 22px;
+	color: #fff;
+}
+
+/* About Section */
+.about h1{
+    margin: 15px 0;
+}
+.about p {
+	width: 534px;
+	margin: auto;
+	margin-bottom: 20px;
+}
+
+
+/* Service Section */
+.part-1 {
+	float: left;
+	width: 31.3%;
+	border: 1px solid #ddd;
+	padding: 10px;
+	box-sizing: border-box;
+	text-align: center;
+	margin-left: 1%;
+	margin-right: 1%;
+}
+.part-1 span {
+	font-size: 30px;
+	background: blue;
+	width: 50px;
+	display: inline-block;
+	height: 50px;
+	line-height: 50px;
+	color: #fff;
+	border-radius: 20px 0;
+}
+.part-1 h1{
+    margin:10px;
+}
+
+/* Blog Section */
+.blog-section{
+	margin-top: 30px;
+}
+.blog-1{
+	width: 70%;
+	float: left;
+}
+.blog-1 img {
+	float: left;
+	width: 250px;
+	margin-right: 15px;
+}
+.blog-1 p{
+	margin-bottom: 20px;
+}
+.blog-2 {
+	width: 25%;
+	float: right;
+	text-align: right;
+}
+.blog-2 h1 {
+	text-align: center;
+	border-bottom: 1px solid #ddd;
+	width: 115px;
+	margin: auto;
+	margin-bottom: 20px;
+}
+.blog-2 ul{
+	list-style: none;
+}
+.blog-2 ul li {
+	background: #ddd;
+	width: 189px;
+	margin: auto;
+	padding: 10px 20px;
+	margin-bottom: 5px;
+	border-radius: 10px;
+	transition: .5s;
+}
+.blog-2 ul li:hover{
+	background: blue;
+	color: #fff;
+}
+
+
+/* Footer Section */
+.footer{
+	background: #000;
+}
+.copy{
+	width: 60%;
+	float: left;
+}
+.copy h2 {
+	font-size: 25px;
+	color: #fff;
+	line-height: 62px;
+}
+.icon {
+	width: 40%;
+	float: right;
+	text-align: right;
+}
+.icon i{
+	display: inline-block;
+	width: 50px;
+	height: 50px;
+	line-height: 50px;
+	background: #2ecc71;
+	margin: 7px;
+	color: #fff;
+	border-radius: 50%;
+	font-size: 17px;
+	transition: .5s;
+	text-align: center;
+}
+.icon i:hover{
+	background: #27ae60;
+	transform: scale(1.2);
+}
